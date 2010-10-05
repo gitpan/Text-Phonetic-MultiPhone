@@ -1,0 +1,30 @@
+NAME
+
+    Text::Phonetic::NyMultiPhonesiis - MultiPhone algorithm
+
+SYNOPSIS
+
+      use Text::Phonetic::MultiPhone;
+  
+      my $phonetic = Text::Phonetic::MultiPhone->new();
+      $encoded_string = $phonetic->encode($string);
+
+DESCRIPTION
+
+    The MultiPhone search algorithm is a phonetic algorithm.
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	Text::Phonetic::MultiPhone is Copyright (c) 2010 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1), Text::Phonetic(3pm).
